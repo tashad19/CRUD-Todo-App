@@ -49,6 +49,10 @@ function App() {
     <>
       <TodoInput todoValue={todoValue} setTodoValue={setTodoValue} handleAddTodos={handleAddTodos} />
       <TodoList handleEditTodo={handleEditTodo} handleDeleteTodo={handleDeleteTodo} todos={todos} />
+      
+      <div className="footer">
+        Made by Tashad.
+      </div>
     </>
   );
 }
